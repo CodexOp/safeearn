@@ -1,0 +1,307 @@
+.dash{
+    color: #fff !important;
+    font-size: 10px;
+    margin-top: 40px;
+    z-index: 1000;
+    width:100%;
+    margin-left: auto;
+}
+
+.walletaddress_box{
+    width: 100% !important;
+}
+
+
+.contract_address{
+    margin-top: 30px;
+    background: rgba($color: #71C7EC, $alpha: 0.25)
+}
+
+.address_title{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.logo_wallet{
+    font-size: 26px;
+}
+
+.wallet_block{
+    margin-bottom: 30px;
+}
+
+
+.tokensupply_block{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.flex_card{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap:20px;
+    justify-content: center !important;
+    overflow: hidden;
+
+    .card_title{
+        h2{
+            color: #71C7EC !important;
+        }
+    
+    }
+ 
+    .card_value{
+        h2{
+            color: #fff !important;
+            font-size: 20px !important;
+        }
+    }
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.block1{
+    width: 100%;
+    border:1px solid #71C7EC;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.inner_block1{
+    color: #fff;
+    width: 33%;
+    padding: 13px 0;
+}
+
+.block2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+
+.claim_block{
+padding-bottom: 50px !important;
+width: 100% !important;
+
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+
+.claim_button{
+    position: absolute;
+    bottom:-15px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: #71C7EC;
+    border-radius: 10px;
+    padding: 5px 40px;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    border:2px solid #71C7EC;
+}
+
+
+
+.inner_block2{
+width: 100%;
+border:1px solid #71C7EC;
+border-radius: 10px;
+margin-top:1.3rem;
+padding: 20px;
+}
+.block3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.inner_block3{
+width: 49%;
+border:1px solid #71C7EC;
+border-radius: 10px;
+margin-top:1.3rem;
+padding: 20px;
+}
+
+
+.block1_supply{
+margin-right: 1%;
+
+}
+
+
+.block2_supply{
+margin-left: 1%;
+
+}
+
+#vertical-tabpanel-0{
+    width: 80%;
+}
+
+.dashboard-card{
+    text-align: center;
+
+
+    .card_title{
+        h2{
+            color: hsla(0,0%,100%,.9);
+            font-weight:400;
+            padding: 3px 0;
+            font-size: 20px;
+        }
+    }
+
+
+    .card_value{
+        h2{
+            color: #71C7EC !important;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        input{
+            color: #71C7EC !important;
+            font-size: 2rem;
+            font-weight: 500;
+            width: 100%;
+            background: transparent;
+            outline: none;
+            border: none;
+            text-align: center;
+
+
+           
+        }
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            opacity: 1; /* Firefox */
+            font-size: 1.5rem;
+            color: #71C7EC !important;
+
+
+          }
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    #vertical-tabpanel-0{
+        width: 100%;
+    }
+
+    .inner_block1{
+        color: #fff;
+        width: 50%;
+        padding: 13px 0;
+    }
+
+}
+
+
+.flex_card{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap:20px;
+    justify-content: center;
+
+    .card_title{
+        h2{
+            color: #71C7EC !important;
+        }
+    
+    }
+ 
+    .card_value{
+        h2{
+            color: #fff !important;
+            font-size: 20px !important;
+        }
+    }
+
+    
+
+
+}
+
+
+@media (max-width:650px){
+    .inner_block1{
+        color: #fff;
+        width: 100%;
+        padding: 13px 0;
+    }
+
+    .inner_block2{
+        width: 100%;
+    }
+
+    .inner_block3{
+        width: 100%;
+    }
+    
+
+    .flex_card{
+        justify-content: left;
+        flex-direction: column;
+
+    }
+
+  
+
+    .address_box{
+    display: flex;
+    justify-content: flex-start;
+    }
+
+    .card_title{
+        h2{
+            font-size: 18px;
+        }
+    }
+
+    .address_title{
+        width: 100%;
+        justify-content: center;
+    }
+ 
+    .card_value{
+        h2{
+            color: #fff !important;
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media (max-width:500px){
+    
+}

@@ -1,24 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/sidebar/Sidebar';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Dash from './components/dashboard/Dash';
+import Calculator from './components/calculator/Calculator';
+import Todo from './components/todo/Todo';
+import Swap from './components/swap/Swap';
+import Faq from './components/faq/Faq';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Sidebar />
+      <Routes>
+        <Route  path='/'  exact element={<Dash/>}/>
+        <Route path='/calculator' element={<Calculator/>} />
+        <Route path='/todo' element={<Todo />} />
+        <Route path='/swap' element={<Swap />} />
+        <Route path='/faq' element={<Faq/>} />
+      </Routes>
+    </Router>
+
+    </>
   );
 }
 
