@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route  path='/'  exact element={<Dash/>}/>
         <Route path='/calculator' element={<Calculator/>} />
-        <Route path='/todo' element={<Todo />} />
+        <Route path='/upvote' element={<Todo />} />
         <Route path='/swap' element={<Swap />} />
         <Route path='/faq' element={<Faq/>} />
       </Routes>

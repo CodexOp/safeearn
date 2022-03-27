@@ -17,13 +17,13 @@ export const SliderData = [
         icon: <Ai.AiFillCalculator/>
     },
     {
-        title:'Swap',
+        title:'SafeSwap',
         path:'/swap',
         icon: <Ai.AiOutlineSwap/>
     },
     {
-        title:'To-Do List',
-        path:'/todo',
+        title:'Upvote List',
+        path:'/upvote',
         icon: <Ai.AiOutlineUnorderedList/>
     },
     {
